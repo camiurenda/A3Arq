@@ -31,12 +31,9 @@ const MainCarousel = () => {
                         <div className="container">
                             <div className="row justify-content-start">
                                 <div className="col-10 col-lg-8">
-                                    <h1 className="display-1 text-white animated slideInDown">Best Architecture And Interior
-                                        Design Services</h1>
-                                    <p className="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor
-                                        at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
-                                        elitr.</p>
-                                    <a href="/about.html" className="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                                    <h1 className="display-1 text-white animated slideInDown">Descubre Nuestros Proyectos Innovadores</h1>
+                                    <p className="fs-5 fw-medium text-white mb-4 pb-3">Explora nuestra galería de proyectos arquitectónicos que transforman espacios y superan expectativas.</p>
+                                    <a href="/project.html#project1" className="btn btn-primary py-3 px-5 animated slideInLeft">Ver Proyectos</a>
                                 </div>
                             </div>
                         </div>
@@ -48,12 +45,9 @@ const MainCarousel = () => {
                         <div className="container">
                             <div className="row justify-content-start">
                                 <div className="col-10 col-lg-8">
-                                    <h1 className="display-1 text-white animated slideInDown">Best Architecture And Interior
-                                        Design Services</h1>
-                                    <p className="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor
-                                        at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
-                                        elitr.</p>
-                                    <a href="/about.html" className="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                                    <h1 className="display-1 text-white animated slideInDown">Soluciones en Módulos Habitacionales</h1>
+                                    <p className="fs-5 fw-medium text-white mb-4 pb-3">Diseñamos y construimos módulos habitacionales modernos, funcionales y adaptados a tus necesidades.</p>
+                                    <a href="/modules.html#module1" className="btn btn-primary py-3 px-5 animated slideInLeft">Conocer Módulos</a>
                                 </div>
                             </div>
                         </div>
@@ -65,12 +59,9 @@ const MainCarousel = () => {
                         <div className="container">
                             <div className="row justify-content-start">
                                 <div className="col-10 col-lg-8">
-                                    <h1 className="display-1 text-white animated slideInDown">Best Architecture And Interior
-                                        Design Services</h1>
-                                    <p className="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor
-                                        at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
-                                        elitr.</p>
-                                    <a href="/about.html" className="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                                    <h1 className="display-1 text-white animated slideInDown">Conócenos: Tus Socias en Arquitectura</h1>
+                                    <p className="fs-5 fw-medium text-white mb-4 pb-3">Somos un equipo de arquitectas apasionadas, comprometidas con la excelencia y la innovación en cada diseño.</p>
+                                    <a href="/about.html#about1" className="btn btn-primary py-3 px-5 animated slideInLeft">Sobre Nosotras</a>
                                 </div>
                             </div>
                         </div>
