@@ -37,7 +37,7 @@ const Navbar = () => {
                         <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Proyectos</a>
                         <div className="dropdown-menu border-0 m-0">
                             <a href="/project.html#project1" className="dropdown-item">Casa GC</a>
-                            <a href="/project.html#project2" className="dropdown-item">Proyecto 2</a>
+                            <a href="/project.html#project2" className="dropdown-item">Casa PB</a>
                             <a href="/project.html#project3" className="dropdown-item">Proyecto 3</a>
                             <a href="/project.html#project4" className="dropdown-item">Proyecto 4</a>
                             <a href="/project.html#project5" className="dropdown-item">Proyecto 5</a>
@@ -48,7 +48,7 @@ const Navbar = () => {
                     <a href="/service.html" className="nav-item nav-link">Servicios</a>
                     <a href="/about.html" className="nav-item nav-link">Sobre nosotras</a>
                     <a href="/contact.html" className="nav-item nav-link">Contacto</a>
-                    <a href="/appointment.html" className="nav-item nav-link">Agenda un turno</a>
+                    <a href="/appointment.html" className="nav-item nav-link">Agenda una reunión</a>
                 </div>
             </div>
         </nav>

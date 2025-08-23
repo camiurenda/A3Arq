@@ -8,23 +8,23 @@ const projectsData = [
         title: "CASA GC - Vivienda Unifamiliar",
         description: "Este proyecto se plantea como una vivienda que se cierra hacia la calle y se abre completamente hacia el patio, priorizando la privacidad sin resignar luz natural. Diseñada en dos niveles, su emplazamiento fue cuidadosamente estudiado según la orientación solar, garantizando el ingreso de luz del norte, ideal para los espacios principales. Naturaleza, intimidad y funcionalidad se combinan en esta propuesta que invita a habitar hacia adentro",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie construida", value: "200 m²" },
-            { icon: "fa fa-tree", label: "Superficie del terreno", value: "500 m²" },
-            { icon: "fa fa-door-open", label: "Ambientes", value: "5" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Barrio Cerrado" }
+            { icon: "fa fa-ruler-combined", label: "Superficie proyectada", value: "250 m²" },
+            { icon: "fa fa-tree", label: "Superficie del terreno", value: "360 m²" },
+            { icon: "fa fa-door-open", label: "Ambientes", value: "3 Dormitorios - 2 Baños - Cochera Doble - PlayRoom - Terraza - Balcón" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Barrio Master Plan - Villa Nueva" }
         ]
     },
     {
         id: 2,
-        name: "Royal Hotel",
-        image: "img/project-2.jpg",
-        title: "Modern Hotel Design",
-        description: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet. Tempor erat elitr rebum at clita.",
+        name: "Casa PB",
+        image: "img/CASAPB.jpg",
+        title: "CASA PB - Vivienda Unifamiliar",
+        description: "La casa está proyectada en un terreno de forma triangular, al estar en esquina, tomamos como concepto general la relación visual con el entorno natural. Se articula en dos plantas, una baja donde se desarrollan la mayoría de las actividades diurnas, estar, cocina, comedor, galería con asador y patio con pileta, y por otro lado en la planta alta se encuentran los dormitorios con acceso a un balcón, un sector de trabajo y un baño con ante baño. Está pensada con una arquitectura moderna, simple y un diseño elegante que incorpora detalles de piedras naturales en sus fachadas.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie construida", value: "1500 m²" },
-            { icon: "fa fa-tree", label: "Superficie del terreno", value: "2000 m²" },
-            { icon: "fa fa-door-open", label: "Ambientes", value: "50" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Centro Urbano" }
+            { icon: "fa fa-ruler-combined", label: "Superficie proyectada", value: "116 m²" },
+            { icon: "fa fa-tree", label: "Superficie del terreno", value: "230 m²" },
+            { icon: "fa fa-door-open", label: "Ambientes", value: "2 Dormitorios - 1 Baño - 1 Toilette - Estudio - Balcón - Cochera simple" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Barrio Vista Verde - Villa María"}
         ]
     },
     {
@@ -160,7 +160,6 @@ const Project = () => {
                                             {project.features.map((feature, i) => (
                                                 <p key={i} className="project-feature-item"><i className={`${feature.icon} text-primary me-3`}></i>{feature.label}: {feature.value}</p>
                                             ))}
-                                            <a href="/project.html" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                         </div>
                                     </div>
                                 </div>

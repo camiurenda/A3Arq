@@ -7,8 +7,8 @@ const Footer = () => {
                 <div className="row g-5">
                     <div className="col-lg-3 col-md-6">
                         <h3 className="text-light mb-4">Address</h3>
-                        <p className="mb-2"><i className="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
-                        <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
+                        <p className="mb-2"><i className="fa fa-map-marker-alt text-primary me-3"></i>Villa María, Córdoba</p>
+                        <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+54 9 353 420-2482 (Lucía)</p>
                         <p className="mb-2"><i className="fa fa-envelope text-primary me-3"></i>info@example.com</p>
                         <div className="d-flex pt-2">
                             <a className="btn btn-square btn-outline-body me-1" href="https://twitter.com"><i className="fab fa-twitter"></i></a>
