@@ -42,28 +42,28 @@ const projectsData = [
     },
     {
         id: 4,
-        name: "Shopping Complex",
-        image: "img/project-4.jpg",
-        title: "Dynamic Retail Environments",
-        description: "Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet. Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.",
+        name: "Edificio de Oficinas",
+        image: "img/EDIFICIO DE OFICINAS.jpg",
+        title: "EDIFICIO DE OFICINAS",
+        description: "El diseño plantea oficinas en planta libre, priorizando la versatilidad y adaptabilidad de los espacios de trabajo. La propuesta se organiza en torno a un patio central que aporta iluminación y ventilación natural, acompañado de balcones en frente y contrafrente que refuerzan la conexión con el entorno urbano.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie construida", value: "5000 m²" },
-            { icon: "fa fa-tree", label: "Superficie del terreno", value: "3000 m²" },
-            { icon: "fa fa-door-open", label: "Ambientes", value: "100+" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Zona Comercial" }
+            { icon: "fa fa-ruler-combined", label: "Superficie proyectada", value: "495 m²" },
+            { icon: "fa fa-tree", label: "Superficie del terreno", value: "270 m²" },
+            { icon: "fa fa-door-open", label: "Ambientes", value: "1 Local comercial - 5 Oficinas de planta libre con baño y kitchen" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Barrio Centro - Villa María" }
         ]
     },
     {
         id: 5,
-        name: "Project Five",
-        image: "img/project-1.jpg",
-        title: "Residential Masterpiece",
-        description: "Sed stet lorem sit clita duo justo magna dolore erat amet. Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.",
+        name: "Proyecto Las Dalias",
+        image: "img/Proyecto LAS DALIAS.jpg",
+        title: "Proyecto LAS DALIAS - Interiorismo",
+        description: "Un diseño que integra calidez, funcionalidad y estilo contemporáneo. El proyecto se organiza en tres espacios claramente definidos: estudio, estar y comedor, que se conectan visualmente pero mantienen su identidad propia gracias al uso estratégico de mobiliario a medida, iluminación escénica y juegos de cielorrasos. La paleta neutra en tonos grises y madera natural aporta serenidad y elegancia, mientras que los detalles decorativos y la iluminación puntual generan una atmósfera moderna y acogedora. El resultado es un ambiente versátil, pensado tanto para el confort diario como para disfrutar en reuniones sociales..",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie construida", value: "300 m²" },
-            { icon: "fa fa-tree", label: "Superficie del terreno", value: "700 m²" },
-            { icon: "fa fa-door-open", label: "Ambientes", value: "6" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Zona Residencial" }
+            { icon: "fa fa-ruler-combined", label: "Superficie proyectada", value: "30 m²" },
+            { icon: "fa fa-tree", label: "Superficie del terreno", value: "-" },
+            { icon: "fa fa-door-open", label: "Ambientes", value: "Estudio - Estar - Comedor" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Barrio Golf - Villa Nueva" }
         ]
     },
     {
