@@ -29,15 +29,15 @@ const projectsData = [
     },
     {
         id: 3,
-        name: "Mexwel Building",
-        image: "img/project-3.jpg",
-        title: "Innovative Office Spaces",
-        description: "Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet. Tempor erat elitr rebum at clita.",
+        name: "Casa Bio",
+        image: "img/CasaBIO.jpg",
+        title: "Casa BIO - Vivienda en bioconstrucción",
+        description: "Este proyecto se concibe bajo los principios de la bioconstrucción y el respeto por el entorno natural. Se trata de una vivienda unifamiliar que combina confort, simplicidad y sostenibilidad, pensada para integrarse armónicamente con el paisaje. La organización espacial privilegia la entrada de luz del norte a través de un ventiluz central, lo que garantiza ambientes cálidos y luminosos durante todo el día. Al sur, se desarrolla una galería amplia, pensada como transición fluida entre el interior y el jardín, ideal para el descanso y la vida al aire libre.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie construida", value: "1000 m²" },
-            { icon: "fa fa-tree", label: "Superficie del terreno", value: "800 m²" },
-            { icon: "fa fa-door-open", label: "Ambientes", value: "20" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Distrito Financiero" }
+            { icon: "fa fa-ruler-combined", label: "Superficie construida", value: "162 m²" },
+            { icon: "fa fa-tree", label: "Superficie del terreno", value: "604 m²" },
+            { icon: "fa fa-door-open", label: "Ambientes", value: "2 Dormitorios - 1 Baño - Cochera Simple - Habitación de Yoga" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Barrio Campos del Este - Villa María" }
         ]
     },
     {

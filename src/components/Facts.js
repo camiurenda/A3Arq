@@ -16,9 +16,8 @@ const Facts = () => {
                             <div className="fact-icon">
                                 <img src="img/icons/icon-2.png" alt="Icon" />
                             </div>
-                            <h3 className="mb-3">Design Approach</h3>
-                            <p className="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                diam sed stet.</p>
+                            <h3 className="mb-3">Enfoque de Diseño</h3>
+                            <p className="mb-0">Nuestro enfoque se centra en la funcionalidad, estética y sostenibilidad, creando espacios que inspiran y perduran.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -26,9 +25,8 @@ const Facts = () => {
                             <div className="fact-icon">
                                 <img src="img/icons/icon-3.png" alt="Icon" />
                             </div>
-                            <h3 className="mb-3">Innovative Solutions</h3>
-                            <p className="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                diam sed stet.</p>
+                            <h3 className="mb-3">Soluciones Innovadoras</h3>
+                            <p className="mb-0">Implementamos las últimas tendencias y tecnologías para ofrecerte diseños únicos y eficientes.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -36,9 +34,8 @@ const Facts = () => {
                             <div className="fact-icon">
                                 <img src="img/icons/icon-4.png" alt="Icon" />
                             </div>
-                            <h3 className="mb-3">Project Management</h3>
-                            <p className="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                diam sed stet.</p>
+                            <h3 className="mb-3">Gestión de Proyectos</h3>
+                            <p className="mb-0">Garantizamos una ejecución impecable de cada proyecto, desde la concepción hasta la entrega final, con total transparencia.</p>
                         </div>
                     </div>
                 </div>
