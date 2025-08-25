@@ -26,7 +26,7 @@ const MainCarousel = () => {
                 className="header-carousel position-relative"
             >
                 <div className="owl-carousel-item position-relative" data-dot="<img src='img/carousel-1.jpg'>">
-                    <img className="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <img className="img-fluid" src="img/1.jpg" alt="" />
                     <div className="owl-carousel-inner">
                         <div className="container">
                             <div className="row justify-content-start">
@@ -40,7 +40,7 @@ const MainCarousel = () => {
                     </div>
                 </div>
                 <div className="owl-carousel-item position-relative" data-dot="<img src='img/carousel-2.jpg'>">
-                    <img className="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <img className="img-fluid" src="img/2.jpg" alt="" />
                     <div className="owl-carousel-inner">
                         <div className="container">
                             <div className="row justify-content-start">
@@ -54,7 +54,7 @@ const MainCarousel = () => {
                     </div>
                 </div>
                 <div className="owl-carousel-item position-relative" data-dot="<img src='img/carousel-3.jpg'>">
-                    <img className="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <img className="img-fluid" src="img/3.jpg" alt="" />
                     <div className="owl-carousel-inner">
                         <div className="container">
                             <div className="row justify-content-start">
