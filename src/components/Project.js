@@ -68,15 +68,15 @@ const projectsData = [
     },
     {
         id: 6,
-        name: "Project Six",
-        image: "img/project-2.jpg",
-        title: "Urban Development",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        name: "Casa FG",
+        image: "img/CASA FG.jpg",
+        title: "Casa FG - Vivienda Unifamiliar",
+        description: "La vivienda está implantada en un lote en esquina y pensada para desarrollarse en dos etapas. El acceso peatonal y vehicular se ubica sobre el frente principal, orientado al Sur. Mientras que el área de cocina, comedor y galería, sobre el frente Norte, abriendose a un gran patio. Hacia el lado Este nos encontramos con el estar y  un dormitorio, y en el Oeste un baño completo y la escalera de dos tramos. La planta alta se compone de 2 dormitorios con vestidor, baño con ante baño y un playroom con terraza accesible..",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie construida", value: "800 m²" },
-            { icon: "fa fa-tree", label: "Superficie del terreno", value: "1200 m²" },
-            { icon: "fa fa-door-open", label: "Ambientes", value: "15" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Desarrollo Urbano" }
+            { icon: "fa fa-ruler-combined", label: "Superficie construida", value: "195 m²" },
+            { icon: "fa fa-tree", label: "Superficie del terreno", value: "500 m²" },
+            { icon: "fa fa-door-open", label: "Ambientes", value: "2 Dormitorios - 2 Baños - Local - Cochera simple " },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Barrio Los Talas - Anisacate" }
         ]
     }
 ];
