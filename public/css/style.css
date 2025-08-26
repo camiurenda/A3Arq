@@ -176,12 +176,12 @@ h6,
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
-        min-height: 500px;
+        height: 100%; /* Ensure carousel item takes full height */
     }
 
     .header-carousel .owl-carousel-item img {
         width: 100%;
-        height: auto; /* Allow height to adjust proportionally */
+        height: 100%; /* Ensure image fills the item's height */
         object-fit: cover;
     }
 

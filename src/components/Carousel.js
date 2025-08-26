@@ -23,7 +23,7 @@ const MainCarousel = () => {
                 interval={3000}
                 transitionTime={1500}
                 renderThumbs={renderThumbs}
-                className="header-carousel position-relative"
+                className="header-carousel"
             >
                 <div className="owl-carousel-item position-relative" data-dot="<img src='img/carousel-1.jpg'>">
                     <img className="img-fluid" src="img/1.jpg" alt="" />
