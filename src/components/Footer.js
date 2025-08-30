@@ -6,10 +6,11 @@ const Footer = () => {
             <div className="container py-5">
                 <div className="row g-5">
                     <div className="col-lg-3 col-md-6">
-                        <h3 className="text-light mb-4">Address</h3>
+                        <h3 className="text-light mb-4">Dirección</h3>
                         <p className="mb-2"><i className="fa fa-map-marker-alt text-primary me-3"></i>Villa María, Córdoba</p>
-                        <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+54 9 353 420-2482 (Lucía)</p>
-                        <p className="mb-2"><i className="fa fa-envelope text-primary me-3"></i>info@example.com</p>
+                        <p className="mb-2"><i className="fa fa-map-marker-alt text-primary me-3"></i>Córdoba Capital, Córdoba</p>
+                        <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+54 353 420 2482 (Lucía)</p>
+                        <p className="mb-2"><i className="fa fa-envelope text-primary me-3"></i>urendacamila@gmail.com</p>
                         <div className="d-flex pt-2">
                             <a className="btn btn-square btn-outline-body me-1" href="https://twitter.com"><i className="fab fa-twitter"></i></a>
                             <a className="btn btn-square btn-outline-body me-1" href="https://facebook.com"><i className="fab fa-facebook-f"></i></a>
@@ -18,30 +19,23 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <h3 className="text-light mb-4">Services</h3>
-                        <a className="btn btn-link" href="/service.html">Architecture</a>
-                        <a className="btn btn-link" href="/service.html">3D Animation</a>
-                        <a className="btn btn-link" href="/service.html">House Planning</a>
-                        <a className="btn btn-link" href="/service.html">Interior Design</a>
-                        <a className="btn btn-link" href="/service.html">Construction</a>
+                        <h3 className="text-light mb-4">Servicios</h3>
+                        <a className="btn btn-link" href="/service.html">Arquitectura</a>
+                        <a className="btn btn-link" href="/service.html">Renders 3D</a>
+                        <a className="btn btn-link" href="/service.html">Planificación de Viviendas</a>
+                        <a className="btn btn-link" href="/service.html">Diseño de Interiores</a>
+                        <a className="btn btn-link" href="/service.html">Remodelación</a>
+                        <a className="btn btn-link" href="/service.html">Construcción</a>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <h3 className="text-light mb-4">Quick Links</h3>
-                        <a className="btn btn-link" href="/about.html">About Us</a>
-                        <a className="btn btn-link" href="/contact.html">Contact Us</a>
-                        <a className="btn btn-link" href="/service.html">Our Services</a>
-                        <a className="btn btn-link" href="">Terms & Condition</a>
-                        <a className="btn btn-link" href="">Support</a>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
-                        <h3 className="text-light mb-4">Newsletter</h3>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div className="position-relative mx-auto" style={{ maxWidth: '400px' }}>
-                            <input className="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                                placeholder="Your email" />
-                            <button type="button"
-                                className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
+                        <h3 className="text-light mb-4">Enlaces Rápidos</h3>
+                        <a className="btn btn-link" href="/about.html">Acerca de Nosotros</a>
+                        <a className="btn btn-link" href="/contact.html">Contáctanos</a>
+                        <a className="btn btn-link" href="/service.html">Nuestros Servicios</a>
+                        <a className="btn btn-link" href="/project.html">Proyectos</a>
+                        <a className="btn btn-link" href="/team.html">Nuestro Equipo</a>
+                        <a className="btn btn-link" href="">Términos y Condiciones</a>
+                        <a className="btn btn-link" href="">Soporte</a>
                     </div>
                 </div>
             </div>
@@ -49,11 +43,11 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="/">Your Site Name</a>, All Right Reserved.
+                        &copy; 2025 <a href="/">Techlabs</a>, Todos los derechos reservados.
                         </div>
                         <div className="col-md-6 text-center text-md-end">
-                            Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-                            <br /> Distributed By: <a className="border-bottom" href="https://themewagon.com"
+                            Diseñado por <a href="https://htmlcodex.com">HTML Codex</a>
+                            <br /> Distribuido por: <a className="border-bottom" href="https://themewagon.com"
                                 target="_blank" rel="noopener noreferrer">ThemeWagon</a>
                         </div>
                     </div>
