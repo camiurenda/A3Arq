@@ -175,13 +175,13 @@ h6,
 
 @media (max-width: 768px) {
     .header-carousel .carousel .slide {
-        height: 100%;
+        height: 50vh; /* Set a specific height for mobile */
     }
 
     .header-carousel .carousel .slide img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: cover; /* Ensure the image covers the slide area */
     }
 
     .header-carousel .carousel .carousel-status {
@@ -216,7 +216,7 @@ h6,
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 80px; /* Adjust height as needed */
+        height: 60px; /* Adjust height for a sleeker look */
         background: rgba(0, 0, 0, 0.7);
         display: flex;
         justify-content: center;
@@ -234,8 +234,8 @@ h6,
     }
 
     .header-carousel .carousel .thumb {
-        width: 60px; /* Adjust thumbnail size */
-        height: 60px;
+        width: 50px; /* Make thumbnails smaller */
+        height: 50px;
         margin: 0 5px;
         border: 2px solid transparent;
         transition: border-color 0.3s ease;
