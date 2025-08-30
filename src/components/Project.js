@@ -124,12 +124,12 @@ const Project = () => {
                     <h1 className="display-5 mb-4">Conoce nuestros últimos diseños</h1>
                 </div>
                 <div className="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div className="col-lg-4">
+                    <div className="col-12 col-lg-4">
                         <div className="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
                             {projectsData.map((project, index) => (
                                 <button
                                     key={project.id}
-                                    className={`nav-link w-100 d-flex align-items-center text-start p-4 mb-4 ${index === 0 ? 'active' : ''}`}
+                                    className={`nav-link d-flex align-items-center text-start p-4 mb-4 ${index === 0 ? 'active' : ''}`}
                                     data-bs-toggle="pill"
                                     data-bs-target={`#tab-pane-${project.id}`}
                                     type="button"
@@ -139,7 +139,7 @@ const Project = () => {
                             ))}
                         </div>
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-12 col-lg-8">
                         <div className="tab-content w-100">
                             {projectsData.map((project, index) => (
                                 <div
