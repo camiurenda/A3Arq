@@ -129,7 +129,7 @@ const Project = () => {
                             {projectsData.map((project, index) => (
                                 <button
                                     key={project.id}
-                                    className={`nav-link d-flex align-items-center text-start p-4 mb-4 ${index === 0 ? 'active' : ''}`}
+                                    className={`nav-link w-100 d-flex align-items-center text-start p-4 mb-4 ${index === 0 ? 'active' : ''}`}
                                     data-bs-toggle="pill"
                                     data-bs-target={`#tab-pane-${project.id}`}
                                     type="button"

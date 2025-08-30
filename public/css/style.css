@@ -399,7 +399,7 @@ h6,
     }
 
     .project .nav-pills .nav-link {
-        width: 32%;
+        width: 32% !important;
         margin-bottom: 10px;
         height: 80px;
         align-items: center;
