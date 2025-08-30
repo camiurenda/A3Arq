@@ -44,7 +44,7 @@ const Navbar = () => {
                             <a href="/project.html#project6" className="dropdown-item">Casa FG</a>
                         </div>
                     </div>
-                    <a href="#" className="nav-item nav-link">Módulos Habitables</a>
+                    <a href="/modules.html" className="nav-item nav-link">Módulos Habitables</a>
                     <a href="/service.html" className="nav-item nav-link">Servicios</a>
                     <a href="/about.html" className="nav-item nav-link">Sobre nosotras</a>
                     <a href="/contact.html" className="nav-item nav-link">Contacto</a>

@@ -11,6 +11,7 @@ import About from './components/About';
 import Service from './components/Service';
 import Feature from './components/Feature';
 import Project from './components/Project';
+import Modules from './components/Modules';
 import Team from './components/Team';
 import Appointment from './components/Appointment';
 import Testimonial from './components/Testimonial';
@@ -35,6 +36,7 @@ function App() {
           <Route path="/service.html" element={<Service />} />
           <Route path="/feature.html" element={<Feature />} />
           <Route path="/project.html" element={<Project />} />
+          <Route path="/modules.html" element={<Modules />} />
           <Route path="/team.html" element={<Team />} />
           <Route path="/appointment.html" element={<Appointment />} />
           <Route path="/testimonial.html" element={<Testimonial />} />
