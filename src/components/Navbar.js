@@ -38,10 +38,10 @@ const Navbar = () => {
                         <div className="dropdown-menu border-0 m-0">
                             <a href="/project.html#project1" className="dropdown-item">Casa GC</a>
                             <a href="/project.html#project2" className="dropdown-item">Casa PB</a>
-                            <a href="/project.html#project3" className="dropdown-item">Proyecto 3</a>
-                            <a href="/project.html#project4" className="dropdown-item">Proyecto 4</a>
-                            <a href="/project.html#project5" className="dropdown-item">Proyecto 5</a>
-                            <a href="/project.html#project6" className="dropdown-item">Proyecto 6</a>
+                            <a href="/project.html#project3" className="dropdown-item">Casa Bio</a>
+                            <a href="/project.html#project4" className="dropdown-item">Edificio de oficinas</a>
+                            <a href="/project.html#project5" className="dropdown-item">Proyecto Las Dalias</a>
+                            <a href="/project.html#project6" className="dropdown-item">Casa FG</a>
                         </div>
                     </div>
                     <a href="#" className="nav-item nav-link">Módulos Habitables</a>
