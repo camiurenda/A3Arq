@@ -4,54 +4,83 @@ const modulesData = [
     {
         id: 1,
         name: "Vivienda 1 Dormitorio",
-        image: "img/project-1.jpg",
+        image: "img/VIVIENDA 1 DORM 1.PNG",
         title: "Vivienda 1 Dormitorio",
         description: "Una solución habitacional completa en un diseño compacto y moderno. Perfecto para parejas o como casa de fin de semana. Incluye cocina integrada y dormitorio.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie", value: "40 m²" },
+            { icon: "fa fa-ruler-combined", label: "Superficie", value: "30 m²" },
             { icon: "fa fa-door-open", label: "Ambientes", value: "1 Dormitorio - 1 Baño - Cocina/Comedor" },
-            { icon: "fa fa-shipping-fast", label: "Entrega", value: "45 días" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" }
-        ]
+            { icon: "fa fa-shipping-fast", label: "Entrega", value: "60 días" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" },
+            { icon: "fa fa-paint-roller", label: "Terminación exterior", value: "Chapa sinusoidal color negro" },
+ { icon: "fa fa-thermometer-half", label: "Aislación térmica", value: "Lana de vidrio" },
+            { icon: "fa fa-paint-roller", label: "Terminación interior", value: "Durlock + látex blanco" },
+            { icon: "fa fa-grip-lines", label: "Piso", value: "Piso Vinilico Spc 6 Mm Pvc simil madera" },
+            { icon: "fa fa-lightbulb", label: "Cielorraso", value: "Machimbre PVC Cielorraso 200mm x 10mm" },
+            { icon: "fa fa-home", label: "Techo", value: "Chapa sinusoidal a un agua" },
+            { icon: "fa fa-window-maximize", label: "Aberturas", value: "DVH Línea Módena color negro" }
+      ]      
     },
     {
         id: 2,
         name: "Vivienda 2 Dormitorios",
-        image: "img/project-2.jpg",
+        image: "img/VIVIENDA 2 DORM 1.png",
         title: "Vivienda 2 Dormitorios",
-        description: "Diseñado para familias, este módulo ofrece un espacio amplio y funcional con todas las comodidades de una casa tradicional. La solución perfecta para una vida moderna y sostenible.",
+        description: "Pensado para familias y grupos, este módulo ofrece un espacio amplio, confortable y equipado con todo lo necesario para disfrutar de una estadía práctica y relajada. Una opción ideal para vacaciones o alquileres temporarios, combinando comodidad, diseño y sostenibilidad en un mismo lugar.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie", value: "60 m²" },
+            { icon: "fa fa-ruler-combined", label: "Superficie", value: "40 m²" },
             { icon: "fa fa-door-open", label: "Ambientes", value: "2 Dormitorios - 1 Baño - Cocina/Living/Comedor" },
-            { icon: "fa fa-shipping-fast", label: "Entrega", value: "60 días" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" }
+            { icon: "fa fa-shipping-fast", label: "Entrega", value: "80 días" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" },
+              { icon: "fa fa-paint-roller", label: "Terminación exterior", value: "Chapa sinusoidal color negro" },
+ { icon: "fa fa-thermometer-half", label: "Aislación térmica", value: "Lana de vidrio" },
+            { icon: "fa fa-paint-roller", label: "Terminación interior", value: "Durlock + látex blanco" },
+            { icon: "fa fa-grip-lines", label: "Piso", value: "Piso Vinilico Spc 6 Mm Pvc simil madera" },
+            { icon: "fa fa-lightbulb", label: "Cielorraso", value: "Machimbre PVC Cielorraso 200mm x 10mm" },
+            { icon: "fa fa-home", label: "Techo", value: "Chapa sinusoidal a un agua" },
+            { icon: "fa fa-window-maximize", label: "Aberturas", value: "DVH Línea Módena color negro" }
         ]
     },
     {
         id: 3,
         name: "Oficina",
-        image: "img/project-3.jpg",
+        image: "img/OFICINA.png",
         title: "Módulo Oficina - Tu Espacio de Trabajo",
         description: "Un espacio de trabajo profesional y privado. Ideal para emprendedores y teletrabajo. Diseño moderno y funcional con todas las conexiones necesarias.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie", value: "15 m²" },
-            { icon: "fa fa-door-open", label: "Ambientes", value: "1 Oficina - 1 Baño" },
-            { icon: "fa fa-shipping-fast", label: "Entrega", value: "25 días" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" }
+            { icon: "fa fa-ruler-combined", label: "Superficie", value: "9 m²" },
+            { icon: "fa fa-door-open", label: "Ambientes", value: "1 Oficina" },
+            { icon: "fa fa-shipping-fast", label: "Entrega", value: "15 días" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" },
+             { icon: "fa fa-paint-roller", label: "Terminación exterior", value: "Chapa sinusoidal color negro" },
+ { icon: "fa fa-thermometer-half", label: "Aislación térmica", value: "Lana de vidrio" },
+            { icon: "fa fa-paint-roller", label: "Terminación interior", value: "Durlock + látex blanco" },
+            { icon: "fa fa-grip-lines", label: "Piso", value: "Piso Vinilico Spc 6 Mm Pvc simil madera" },
+            { icon: "fa fa-lightbulb", label: "Cielorraso", value: "Machimbre PVC Cielorraso 200mm x 10mm" },
+            { icon: "fa fa-home", label: "Techo", value: "Chapa sinusoidal a un agua" },
+            { icon: "fa fa-window-maximize", label: "Aberturas", value: "DVH Línea Módena color negro" }
         ]
     },
     {
         id: 4,
         name: "Local",
-        image: "img/project-4.jpg",
+        image: "img/LOCAL.png",
         title: "Módulo Local Comercial",
         description: "Un espacio comercial versátil y atractivo para tu negocio. Diseño personalizable para adaptarse a la identidad de tu marca.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie", value: "30 m²" },
-            { icon: "fa fa-door-open", label: "Ambientes", value: "1 Salón principal - 1 Baño" },
-            { icon: "fa fa-shipping-fast", label: "Entrega", value: "40 días" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" }
+            { icon: "fa fa-ruler-combined", label: "Superficie", value: "16 m²" },
+            { icon: "fa fa-door-open", label: "Ambientes", value: "1 Salón principal" },
+            { icon: "fa fa-shipping-fast", label: "Entrega", value: "15 días" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" },
+            { icon: "fa fa-paint-roller", label: "Terminación exterior", value: "Chapa sinusoidal color negro" },
+ { icon: "fa fa-thermometer-half", label: "Aislación térmica", value: "Lana de vidrio" },
+            { icon: "fa fa-paint-roller", label: "Terminación interior", value: "Durlock + látex blanco" },
+            { icon: "fa fa-grip-lines", label: "Piso", value: "Piso Vinilico Spc 6 Mm Pvc simil madera" },
+            { icon: "fa fa-lightbulb", label: "Cielorraso", value: "Machimbre PVC Cielorraso 200mm x 10mm" },
+            { icon: "fa fa-home", label: "Techo", value: "Chapa sinusoidal a un agua" },
+            { icon: "fa fa-window-maximize", label: "Aberturas", value: "DVH Línea Módena color negro" }
         ]
+        
     },
     {
         id: 5,
@@ -69,14 +98,19 @@ const modulesData = [
     {
         id: 6,
         name: "Deposito",
-        image: "img/service-2.jpg",
+        image: "img/DEPOSITO.png",
         title: "Módulo Deposito",
         description: "Solución de almacenamiento segura y resistente. Ideal para guardar herramientas, mercadería o lo que necesites.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie", value: "20 m²" },
-            { icon: "fa fa-door-open", label: "Ambientes", value: "1 Ambiente" },
-            { icon: "fa fa-shipping-fast", label: "Entrega", value: "20 días" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" }
+            { icon: "fa fa-ruler-combined", label: "Superficie", value: "9 m²" },
+            { icon: "fa fa-door-open", label: "Ambientes", value: "1 Espacio de guardado" },
+            { icon: "fa fa-shipping-fast", label: "Entrega", value: "10 días" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" },
+              { icon: "fa fa-paint-roller", label: "Terminación exterior", value: "Chapa sinusoidal color negro" },
+            { icon: "fa fa-paint-roller", label: "Terminación interior", value: "Durlock + látex blanco" },
+            { icon: "fa fa-grip-lines", label: "Piso", value: "Piso Vinilico" },
+            { icon: "fa fa-home", label: "Techo", value: "Chapa sinusoidal a un agua" },
+            { icon: "fa fa-window-maximize", label: "Aberturas", value: "Línea Módena color negro" }
         ]
     }
 ];
@@ -129,7 +163,7 @@ const Modules = () => {
                             {modulesData.map((module, index) => (
                                 <button
                                     key={module.id}
-                                    className={`nav-link d-flex align-items-center text-start p-4 mb-4 ${index === 0 ? 'active' : ''}`}
+                                    className={`nav-link w-100 d-flex align-items-center text-start p-4 mb-4 ${index === 0 ? 'active' : ''}`}
                                     data-bs-toggle="pill"
                                     data-bs-target={`#tab-pane-${module.id}`}
                                     type="button"
