@@ -44,7 +44,17 @@ const Navbar = () => {
                             <a href="/project.html#project6" className="dropdown-item">Casa FG</a>
                         </div>
                     </div>
-                    <a href="/modules.html" className="nav-item nav-link">Módulos Habitables</a>
+                    <div className="nav-item dropdown">
+                        <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Módulos Habitables</a>
+                        <div className="dropdown-menu border-0 m-0">
+                            <a href="/modules.html#module1" className="dropdown-item">Vivienda 1 Dormitorio</a>
+                            <a href="/modules.html#module2" className="dropdown-item">Vivienda 2 Dormitorios</a>
+                            <a href="/modules.html#module3" className="dropdown-item">Oficina</a>
+                            <a href="/modules.html#module4" className="dropdown-item">Local</a>
+                            <a href="/modules.html#module5" className="dropdown-item">Quincho</a>
+                            <a href="/modules.html#module6" className="dropdown-item">Deposito</a>
+                        </div>
+                    </div>
                     <a href="/service.html" className="nav-item nav-link">Servicios</a>
                     <a href="/about.html" className="nav-item nav-link">Sobre nosotras</a>
                     <a href="/contact.html" className="nav-item nav-link">Contacto</a>

@@ -11,67 +11,67 @@ const Service = () => {
                 <div className="row g-4">
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/service-1.jpg" alt="" />
+                            <img className="bg-img" src="img/1 proyectos de arquitectura.png" alt="" />
                             <div className="service-text p-5">
                                 <img className="mb-4" src="img/icons/icon-5.png" alt="Icon" />
-                                <h3 className="mb-3">Arquitectura</h3>
+                                <h3 className="mb-3">Proyecto de Arquitectura</h3>
                                 <p className="mb-4">Diseñamos espacios funcionales y estéticos, adaptados a tus necesidades y visión.</p>
-                                <a className="btn" href="/service.html"><i className="fa fa-plus text-primary me-3"></i>Leer Más</a>
+                               
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/service-2.jpg" alt="" />
+                            <img className="bg-img" src="img/2 remodelaciones - ampliaciones.png" alt="" />
                             <div className="service-text p-5">
-                                <img className="mb-4" src="img/icons/icon-6.png" alt="Icon" />
-                                <h3 className="mb-3">Renders 3D</h3>
-                                <p className="mb-4">Creamos visualizaciones realistas de tus proyectos antes de su construcción.</p>
-                                <a className="btn" href="/service.html"><i className="fa fa-plus text-primary me-3"></i>Leer Más</a>
+                                <img className="mb-4" src="img/icons/icon-9.png" alt="Icon" />
+                                <h3 className="mb-3">Remodelaciones - Ampliaciones</h3>
+                                <p className="mb-4">Actualizamos y renovamos tus propiedades para mejorar su valor y estética.</p>
+                                
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/service-3.jpg" alt="" />
+                            <img className="bg-img" src="img/Relevamiento.png" alt="" />
                             <div className="service-text p-5">
                                 <img className="mb-4" src="img/icons/icon-7.png" alt="Icon" />
-                                <h3 className="mb-3">Planificación de Viviendas</h3>
-                                <p className="mb-4">Desarrollamos planos y diseños detallados para tu hogar ideal.</p>
-                                <a className="btn" href="/service.html"><i className="fa fa-plus text-primary me-3"></i>Leer Más</a>
+                                <h3 className="mb-3">Relevamientos</h3>
+                                <p className="mb-4">Desarrollamos planos detallados de tu construcción existente.</p>
+                               
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/service-4.jpg" alt="" />
+                            <img className="bg-img" src="img/3 Diseño de interiores.jpg" alt="" />
                             <div className="service-text p-5">
                                 <img className="mb-4" src="img/icons/icon-8.png" alt="Icon" />
                                 <h3 className="mb-3">Diseño de Interiores</h3>
                                 <p className="mb-4">Transformamos tus espacios interiores con estilo y funcionalidad.</p>
-                                <a className="btn" href="/service.html"><i className="fa fa-plus text-primary me-3"></i>Leer Más</a>
+                               
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/service-5.jpg" alt="" />
+                            <img className="bg-img" src="img/4 Paisajismo.png" alt="" />
                             <div className="service-text p-5">
-                                <img className="mb-4" src="img/icons/icon-9.png" alt="Icon" />
-                                <h3 className="mb-3">Remodelación</h3>
-                                <p className="mb-4">Actualizamos y renovamos tus propiedades para mejorar su valor y estética.</p>
-                                <a className="btn" href="/service.html"><i className="fa fa-plus text-primary me-3"></i>Leer Más</a>
+                                <i className="fa fa-seedling fa-3x text-primary mb-4"></i>
+                                <h3 className="mb-3">Paisajismo</h3>
+                                <p className="mb-4">Creamos entornos verdes únicos que combinan diseño, armonía y valor agregado.</p>
+                                
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/service-6.jpg" alt="" />
+                            <img className="bg-img" src="img/5 Dirección de obra.png" alt="" />
                             <div className="service-text p-5">
-                                <img className="mb-4" src="img/icons/icon-10.png" alt="Icon" />
-                                <h3 className="mb-3">Construcción</h3>
+                                <i className="fa fa-hard-hat fa-3x text-primary mb-4"></i>
+                                <h3 className="mb-3">Dirección de Obra</h3>
                                 <p className="mb-4">Ejecutamos proyectos de construcción con calidad y eficiencia.</p>
-                                <a className="btn" href="/service.html"><i className="fa fa-plus text-primary me-3"></i>Leer Más</a>
+                              
                             </div>
                         </div>
                     </div>
