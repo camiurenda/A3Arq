@@ -85,19 +85,24 @@ const modulesData = [
     {
         id: 5,
         name: "Quincho",
-        image: "img/service-1.jpg",
+        image: "img/quincho.png",
         title: "Módulo Quincho - Espacio Social",
         description: "El lugar perfecto para tus reuniones. Un quincho moderno y equipado con parrilla y espacio para disfrutar con amigos y familia.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie", value: "30 m²" },
+            { icon: "fa fa-ruler-combined", label: "Superficie", value: "60 m²" },
             { icon: "fa fa-door-open", label: "Ambientes", value: "1 Salón principal con parrilla - 1 Baño" },
-            { icon: "fa fa-shipping-fast", label: "Entrega", value: "40 días" },
-            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" }
+            { icon: "fa fa-shipping-fast", label: "Entrega", value: "60 días" },
+            { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" },
+                { icon: "fa fa-paint-roller", label: "Terminación exterior", value: "Chapa sinusoidal color negro" },
+            { icon: "fa fa-paint-roller", label: "Terminación interior", value: "Durlock + látex blanco" },
+            { icon: "fa fa-grip-lines", label: "Piso", value: "Piso Vinilico" },
+            { icon: "fa fa-home", label: "Techo", value: "Chapa sinusoidal a un agua" },
+            { icon: "fa fa-window-maximize", label: "Aberturas", value: "Línea Módena color negro" }
         ]
     },
     {
         id: 6,
-        name: "Deposito",
+        name: "Depósito",
         image: "img/DEPOSITO.png",
         title: "Módulo Deposito",
         description: "Solución de almacenamiento segura y resistente. Ideal para guardar herramientas, mercadería o lo que necesites.",
@@ -153,9 +158,16 @@ const Modules = () => {
     return (
         <div className="container-xxl project py-5">
             <div className="container">
-                <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '600px' }}>
+                <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
                     <h4 className="section-title">Módulos Habitables</h4>
                     <h1 className="display-5 mb-4">Soluciones modulares para tu espacio</h1>
+                    <p className="mb-4" style={{ textAlign: 'justify' }}>
+                        <strong>Proyecto de Módulos Habitables</strong><br />
+                        En A3 Arquitectas, junto a BIG Módulos, desarrollamos un sistema innovador de espacios modulares que combina diseño, eficiencia y rapidez constructiva.<br />
+                        Nuestro estudio se encarga del diseño de los proyectos, la dirección de obra, los trámites administrativos y la venta de prototipos, garantizando propuestas arquitectónicas personalizadas y funcionales.<br />
+                        Por su parte, BIG Módulos aporta la mano de obra especializada y los materiales, asegurando calidad, solidez y tiempos de ejecución optimizados.<br />
+                        Una alianza que une arquitectura y construcción para ofrecer soluciones versátiles, sustentables y listas para habitar o trabajar: viviendas, locales, oficinas o depósitos.
+                    </p>
                 </div>
                 <div className="row g-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div className="col-12 col-lg-4">

@@ -9,8 +9,11 @@ const Footer = () => {
                         <h3 className="text-light mb-4">Dirección</h3>
                         <p className="mb-2"><i className="fa fa-map-marker-alt text-primary me-3"></i>Villa María, Córdoba</p>
                         <p className="mb-2"><i className="fa fa-map-marker-alt text-primary me-3"></i>Córdoba Capital, Córdoba</p>
-                        <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+54 353 420 2482 (Lucía)</p>
-                        <p className="mb-2"><i className="fa fa-envelope text-primary me-3"></i>urendacamila@gmail.com</p>
+                        <p className="mb-2"><i className="fa fa-map-marker-alt text-primary me-3"></i>La Playosa, Córdoba</p>
+                        <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+54 353 420 2482 (Lucía - Villa María)</p>
+                        <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+54 3537 44 7866 (Daiana - Córdoba)</p>
+                        <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+54 353 476 9373 (Jésica - La Playosa)</p>
+                        <p className="mb-2"><i className="fa fa-envelope text-primary me-3"></i>arqa3.estudio@gmail.com</p>
                         <div className="d-flex pt-2">
                             <a className="btn btn-square btn-outline-body me-1" href="https://twitter.com"><i className="fab fa-twitter"></i></a>
                             <a className="btn btn-square btn-outline-body me-1" href="https://facebook.com"><i className="fab fa-facebook-f"></i></a>
@@ -21,21 +24,19 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                         <h3 className="text-light mb-4">Servicios</h3>
                         <a className="btn btn-link" href="/service.html">Arquitectura</a>
-                        <a className="btn btn-link" href="/service.html">Renders 3D</a>
-                        <a className="btn btn-link" href="/service.html">Planificación de Viviendas</a>
+                        <a className="btn btn-link" href="/service.html">Remodelaciones - Ampliaciones</a>
+                        <a className="btn btn-link" href="/service.html">Relevamientos</a>
                         <a className="btn btn-link" href="/service.html">Diseño de Interiores</a>
-                        <a className="btn btn-link" href="/service.html">Remodelación</a>
-                        <a className="btn btn-link" href="/service.html">Construcción</a>
+                        <a className="btn btn-link" href="/service.html">Paisajismo</a>
+                        <a className="btn btn-link" href="/service.html">Dirección de Obra</a>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <h3 className="text-light mb-4">Enlaces Rápidos</h3>
-                        <a className="btn btn-link" href="/about.html">Acerca de Nosotros</a>
+                        <a className="btn btn-link" href="/about.html">Sobre Nosotras</a>
                         <a className="btn btn-link" href="/contact.html">Contáctanos</a>
                         <a className="btn btn-link" href="/service.html">Nuestros Servicios</a>
                         <a className="btn btn-link" href="/project.html">Proyectos</a>
-                        <a className="btn btn-link" href="/team.html">Nuestro Equipo</a>
-                        <a className="btn btn-link" href="">Términos y Condiciones</a>
-                        <a className="btn btn-link" href="">Soporte</a>
+                   
                     </div>
                 </div>
             </div>

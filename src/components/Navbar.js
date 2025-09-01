@@ -52,7 +52,7 @@ const Navbar = () => {
                             <a href="/modules.html#module3" className="dropdown-item">Oficina</a>
                             <a href="/modules.html#module4" className="dropdown-item">Local</a>
                             <a href="/modules.html#module5" className="dropdown-item">Quincho</a>
-                            <a href="/modules.html#module6" className="dropdown-item">Deposito</a>
+                            <a href="/modules.html#module6" className="dropdown-item">Depósito</a>
                         </div>
                     </div>
                     <a href="/service.html" className="nav-item nav-link">Servicios</a>
