@@ -89,7 +89,7 @@ const modulesData = [
         title: "Módulo Quincho - Espacio Social",
         description: "El lugar perfecto para tus reuniones. Un quincho moderno y equipado con parrilla y espacio para disfrutar con amigos y familia.",
         features: [
-            { icon: "fa fa-ruler-combined", label: "Superficie", value: "60 m²" },
+            { icon: "fa fa-ruler-combined", label: "Superficie", value: "40 m²" },
             { icon: "fa fa-door-open", label: "Ambientes", value: "1 Salón principal con parrilla - 1 Baño" },
             { icon: "fa fa-shipping-fast", label: "Entrega", value: "60 días" },
             { icon: "fa fa-map-marker-alt", label: "Ubicación", value: "Transportable a todo el país" },
