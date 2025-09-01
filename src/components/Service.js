@@ -11,7 +11,7 @@ const Service = () => {
                 <div className="row g-4">
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/1proyectosdearquitectura.png" alt="" />
+                            <img className="bg-img" src="img/1proyectosdearquitectura.jpg" alt="" />
                             <div className="service-text p-5">
                                 <img className="mb-4" src="img/icons/icon-5.png" alt="Icon" />
                                 <h3 className="mb-3">Proyecto de Arquitectura</h3>
