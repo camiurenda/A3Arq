@@ -85,7 +85,7 @@ const modulesData = [
     {
         id: 5,
         name: "Quincho",
-        image: "img/quincho.png",
+        image: "img/quincho1.png",
         title: "Módulo Quincho - Espacio Social",
         description: "El lugar perfecto para tus reuniones. Un quincho moderno y equipado con parrilla y espacio para disfrutar con amigos y familia.",
         features: [
