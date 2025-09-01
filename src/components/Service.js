@@ -22,7 +22,7 @@ const Service = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/2-remodelaciones-ampliaciones.png" alt="" />
+                            <img className="bg-img" src="img/2-remodelaciones-ampliaciones.jpg" alt="" />
                             <div className="service-text p-5">
                                 <img className="mb-4" src="img/icons/icon-9.png" alt="Icon" />
                                 <h3 className="mb-3">Remodelaciones - Ampliaciones</h3>
@@ -33,7 +33,7 @@ const Service = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/relevamiento.png" alt="" />
+                            <img className="bg-img" src="img/Relevamiento.jpg" alt="" />
                             <div className="service-text p-5">
                                 <img className="mb-4" src="img/icons/icon-7.png" alt="Icon" />
                                 <h3 className="mb-3">Relevamientos</h3>
@@ -66,7 +66,7 @@ const Service = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div className="service-item d-flex position-relative text-center h-100">
-                            <img className="bg-img" src="img/DIRECCION.png" alt="" />
+                            <img className="bg-img" src="img/DIRECCION.jpg" alt="" />
                             <div className="service-text p-5">
                                 <i className="fa fa-hard-hat fa-3x text-primary mb-4"></i>
                                 <h3 className="mb-3">Dirección de Obra</h3>
