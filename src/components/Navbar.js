@@ -57,8 +57,7 @@ const Navbar = () => {
                     </div>
                     <a href="/service.html" className="nav-item nav-link">Servicios</a>
                     <a href="/about.html" className="nav-item nav-link">Sobre nosotras</a>
-                    <a href="/contact.html" className="nav-item nav-link">Contacto</a>
-                    <a href="/appointment.html" className="nav-item nav-link">Agenda una reunión</a>
+                    <a href="/contact.html" className="nav-item nav-link contact-btn">CONTACTO</a>
                 </div>
             </div>
         </nav>

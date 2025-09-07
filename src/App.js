@@ -12,7 +12,6 @@ import Feature from './components/Feature';
 import Project from './components/Project';
 import Modules from './components/Modules';
 import Team from './components/Team';
-import Appointment from './components/Appointment';
 import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -38,7 +37,6 @@ function App() {
           <Route path="/project.html" element={<Project />} />
           <Route path="/modules.html" element={<Modules />} />
           <Route path="/team.html" element={<Team />} />
-          <Route path="/appointment.html" element={<Appointment />} />
           <Route path="/testimonial.html" element={<Testimonial />} />
           <Route path="/contact.html" element={<Contact />} />
           {/* Add other routes as needed */}

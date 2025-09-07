@@ -434,15 +434,18 @@ h6,
 }
 
 .project-feature-item {
-    font-weight: 500; /* Make the text a bit bolder */
-    margin-bottom: 10px; /* Add some space between items */
-    padding-left: 5px; /* Add a little padding */
-    color: var(--dark); /* Ensure good contrast */
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--dark);
+    display: flex;
+    align-items: center;
 }
 
 .project-feature-item i {
-    font-size: 1.2em; /* Make icons slightly larger */
-    vertical-align: middle; /* Align icons with text */
+    font-size: 1.2em;
+    flex-shrink: 0;
+    width: 20px;
+    text-align: center;
 }
 
 
@@ -639,6 +642,41 @@ h6,
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     color: var(--primary);
+}
+
+/* Contact Button Styling */
+.navbar .contact-btn {
+    background: var(--primary) !important;
+    color: #FFFFFF !important;
+    border-radius: 20px;
+    padding: 10px 20px !important;
+    margin-left: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(183, 141, 101, 0.2);
+    display: inline-block;
+    height: 40px;
+    line-height: 20px;
+    align-self: center;
+}
+
+.navbar .contact-btn:hover {
+    background: #9B7756 !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 4px 12px rgba(183, 141, 101, 0.3);
+    text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .contact-btn {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 18px;
+        padding: 8px 18px !important;
+    }
 }
 
 /* Simple Carousel Styles */

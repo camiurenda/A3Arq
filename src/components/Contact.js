@@ -55,7 +55,7 @@ const Contact = () => {
                                     </div>
                                     <div className="ms-4">
                                         <p className="mb-2">Nuestra oficina</p>
-                                        <h5 className="mb-0">Córdoba, Argentina</h5>
+                                        <h5 className="mb-0">Villa María, Córdoba, Argentina</h5>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ const Contact = () => {
                                     </div>
                                     <div className="ms-4">
                                         <p className="mb-2">Llámanos</p>
-                                        <h5 className="mb-0">+549 353 4202482</h5>
+                                        <h5 className="mb-0">+549 353 4202482 (Lucía)</h5>
                                     </div>
                                 </div>
                             </div>
@@ -181,16 +181,6 @@ const Contact = () => {
                                     <div className="d-flex flex-column align-items-center">
                                         <div className="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-3"
                                             style={{ width: '80px', height: '80px' }}>
-                                            <i className="fa fa-2x fa-map-marker-alt text-white"></i>
-                                        </div>
-                                        <h5 className="mb-2">Zona de Trabajo</h5>
-                                        <p className="mb-0">Córdoba Capital y alrededores</p>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 text-center">
-                                    <div className="d-flex flex-column align-items-center">
-                                        <div className="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-3"
-                                            style={{ width: '80px', height: '80px' }}>
                                             <i className="fa fa-2x fa-users text-white"></i>
                                         </div>
                                         <h5 className="mb-2">Reuniones</h5>
@@ -205,6 +195,23 @@ const Contact = () => {
                                         </div>
                                         <h5 className="mb-2">Consultas Online</h5>
                                         <p className="mb-0">También trabajamos de forma virtual</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 text-center">
+                                    <div className="d-flex flex-column align-items-center">
+                                        <div className="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-3"
+                                            style={{ width: '80px', height: '80px' }}>
+                                            <i className="fab fa-2x fa-instagram text-white"></i>
+                                        </div>
+                                        <h5 className="mb-2">Síguenos</h5>
+                                        <p className="mb-0">
+                                            <a href="https://instagram.com/a3arquitectas" 
+                                               target="_blank" 
+                                               rel="noopener noreferrer"
+                                               className="text-decoration-none text-dark">
+                                                @a3arquitectas
+                                            </a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>

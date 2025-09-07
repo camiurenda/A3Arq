@@ -15,7 +15,7 @@ const Footer = () => {
                         <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+54 353 476 9373 (Jésica - La Playosa)</p>
                         <p className="mb-2"><i className="fa fa-envelope text-primary me-3"></i>arqa3.estudio@gmail.com</p>
                         <div className="d-flex pt-2">
-                            <a className="btn btn-square btn-outline-body me-1" href="https://twitter.com"><i className="fab fa-twitter"></i></a>
+                            <a className="btn btn-square btn-outline-body me-1" href="https://instagram.com/a3arquitectas" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
                             <a className="btn btn-square btn-outline-body me-1" href="https://facebook.com"><i className="fab fa-facebook-f"></i></a>
                             <a className="btn btn-square btn-outline-body me-1" href="https://youtube.com"><i className="fab fa-youtube"></i></a>
                             <a className="btn btn-square btn-outline-body me-0" href="https://linkedin.com"><i className="fab fa-linkedin-in"></i></a>
