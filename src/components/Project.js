@@ -56,7 +56,7 @@ const projectsData = [
     {
         id: 5,
         name: "Proyecto Las Dalias",
-        image: "img/Proyecto LAS DALIAS.jpg",
+        image: "img/lasdalias.jpg",
         title: "Proyecto LAS DALIAS - Interiorismo",
         description: "Un diseño que integra calidez, funcionalidad y estilo contemporáneo. El proyecto se organiza en tres espacios claramente definidos: estudio, estar y comedor, que se conectan visualmente pero mantienen su identidad propia gracias al uso estratégico de mobiliario a medida, iluminación escénica y juegos de cielorrasos. La paleta neutra en tonos grises y madera natural aporta serenidad y elegancia, mientras que los detalles decorativos y la iluminación puntual generan una atmósfera moderna y acogedora. El resultado es un ambiente versátil, pensado tanto para el confort diario como para disfrutar en reuniones sociales..",
         features: [

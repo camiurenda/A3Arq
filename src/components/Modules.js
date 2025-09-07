@@ -4,7 +4,7 @@ const modulesData = [
     {
         id: 1,
         name: "Vivienda 1 Dormitorio",
-        image: "img/VIVIENDA 1 DORM 1.PNG",
+        image: "img/1dorm.jpg",
         title: "Vivienda 1 Dormitorio",
         description: "Una solución habitacional completa en un diseño compacto y moderno. Perfecto para parejas o como casa de fin de semana. Incluye cocina integrada y dormitorio.",
         features: [

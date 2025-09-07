@@ -1,12 +1,6 @@
 import React from 'react';
-import CountUp from 'react-countup';
-import { useInView } from 'react-intersection-observer';
 
 const About = () => {
-    const { ref, inView } = useInView({
-        triggerOnce: true,
-        threshold: 0.5,
-    });
 
     return (
         <div className="container-xxl py-5">
@@ -28,17 +22,36 @@ const About = () => {
                            Creemos en una arquitectura funcional, sensible y realista, que combina creatividad con planificación, y diseño con atención al detalle. Nuestro enfoque está puesto en la sustentabilidad y el uso responsable de los recursos, incorporando estrategias de diseño pasivo que optimizan el confort y reducen el impacto ambiental.</p>
                         
                         
-                        <div className="d-flex align-items-center mb-5">
-                            <div className="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
-                                style={{ width: '120px', height: '120px' }} ref={ref}>
-                                <h1 className="display-1 mb-n2">
-                                    {inView && <CountUp end={+25} duration={2} />}
-                                </h1>
+                        <div className="row g-4 mb-4">
+                            <div className="col-md-4 text-center">
+                                <div className="d-flex flex-column align-items-center">
+                                    <div className="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-3"
+                                        style={{ width: '80px', height: '80px' }}>
+                                        <i className="fa fa-leaf text-white fa-2x"></i>
+                                    </div>
+                                    <h5 className="mb-2">Sustentabilidad</h5>
+                                    <p className="text-center mb-0">Diseño responsable con el medio ambiente</p>
+                                </div>
                             </div>
-                            <div className="ps-4">
-                                <h3>Proyectos</h3>
-                                <h3>Realizados</h3>
-                               
+                            <div className="col-md-4 text-center">
+                                <div className="d-flex flex-column align-items-center">
+                                    <div className="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-3"
+                                        style={{ width: '80px', height: '80px' }}>
+                                        <i className="fa fa-lightbulb text-white fa-2x"></i>
+                                    </div>
+                                    <h5 className="mb-2">Creatividad</h5>
+                                    <p className="text-center mb-0">Soluciones innovadoras y personalizadas</p>
+                                </div>
+                            </div>
+                            <div className="col-md-4 text-center">
+                                <div className="d-flex flex-column align-items-center">
+                                    <div className="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-3"
+                                        style={{ width: '80px', height: '80px' }}>
+                                        <i className="fa fa-handshake text-white fa-2x"></i>
+                                    </div>
+                                    <h5 className="mb-2">Acompañamiento</h5>
+                                    <p className="text-center mb-0">Seguimiento cercano en cada etapa</p>
+                                </div>
                             </div>
                         </div>
                        
