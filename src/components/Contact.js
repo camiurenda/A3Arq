@@ -1,6 +1,39 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+    const [isLoading, setIsLoading] = useState(false);
+    const [status, setStatus] = useState('');
+
+    const sendEmail = async (e) => {
+        e.preventDefault();
+        setIsLoading(true);
+        setStatus('');
+
+        // Agregar timestamp automático
+        const timeInput = form.current.querySelector('input[name="time"]');
+        if (timeInput) {
+            timeInput.value = new Date().toLocaleString('es-AR');
+        }
+
+        try {
+            await emailjs.sendForm(
+                'service_i3n4lru',
+                'template_hm5nuz8', 
+                form.current,
+                'Z-MWx4u3NXlNwSdXf'
+            );
+            setStatus('success');
+            form.current.reset();
+        } catch (error) {
+            console.error('Error:', error);
+            setStatus('error');
+        } finally {
+            setIsLoading(false);
+        }
+    };
+
     return (
         <div className="container-xxl py-5">
             <div className="container">
@@ -66,33 +99,77 @@ const Contact = () => {
                     </div>
                     
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div className="row g-3">
-                            <div className="col-12 col-sm-6">
-                                <input type="text" className="form-control" placeholder="Tu nombre" 
-                                    style={{ height: '55px' }} />
+                        <form ref={form} onSubmit={sendEmail}>
+                            <div className="row g-3">
+                                <div className="col-12 col-sm-6">
+                                    <input 
+                                        type="text" 
+                                        name="name"
+                                        className="form-control" 
+                                        placeholder="Tu nombre" 
+                                        style={{ height: '55px' }}
+                                        required
+                                    />
+                                </div>
+                                <div className="col-12 col-sm-6">
+                                    <input 
+                                        type="email" 
+                                        name="email"
+                                        className="form-control" 
+                                        placeholder="Tu email" 
+                                        style={{ height: '55px' }}
+                                        required
+                                    />
+                                </div>
+                                <div className="col-12">
+                                    <input 
+                                        type="text" 
+                                        name="title"
+                                        className="form-control" 
+                                        placeholder="Asunto" 
+                                        style={{ height: '55px' }}
+                                        required
+                                    />
+                                </div>
+                                <div className="col-12">
+                                    <textarea 
+                                        name="message"
+                                        className="form-control" 
+                                        rows="5" 
+                                        placeholder="Cuéntanos sobre tu proyecto..."
+                                        required
+                                    ></textarea>
+                                </div>
+                                
+                                <input type="hidden" name="time" />
+                                
+                                {status === 'success' && (
+                                    <div className="col-12">
+                                        <div className="alert alert-success">
+                                            ¡Mensaje enviado correctamente! Te contactaremos pronto.
+                                        </div>
+                                    </div>
+                                )}
+                                
+                                {status === 'error' && (
+                                    <div className="col-12">
+                                        <div className="alert alert-danger">
+                                            Error al enviar el mensaje. Por favor intenta nuevamente.
+                                        </div>
+                                    </div>
+                                )}
+                                
+                                <div className="col-12">
+                                    <button 
+                                        className="btn btn-primary w-100 py-3" 
+                                        type="submit"
+                                        disabled={isLoading}
+                                    >
+                                        {isLoading ? 'Enviando...' : 'Enviar Mensaje'}
+                                    </button>
+                                </div>
                             </div>
-                            <div className="col-12 col-sm-6">
-                                <input type="email" className="form-control" placeholder="Tu email" 
-                                    style={{ height: '55px' }} />
-                            </div>
-                            <div className="col-12 col-sm-6">
-                                <input type="text" className="form-control" placeholder="Tu teléfono" 
-                                    style={{ height: '55px' }} />
-                            </div>
-                            <div className="col-12 col-sm-6">
-                                <input type="text" className="form-control" placeholder="Asunto" 
-                                    style={{ height: '55px' }} />
-                            </div>
-                            <div className="col-12">
-                                <textarea className="form-control" rows="5" 
-                                    placeholder="Cuéntanos sobre tu proyecto..."></textarea>
-                            </div>
-                            <div className="col-12">
-                                <button className="btn btn-primary w-100 py-3" type="submit">
-                                    Enviar Mensaje
-                                </button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
                 
