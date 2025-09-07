@@ -644,9 +644,9 @@ h6,
 /* Simple Carousel Styles */
 .simple-carousel {
     position: relative;
-    height: 75vh;
-    min-height: 600px;
-    max-height: 850px;
+    height: 85vh;
+    min-height: 700px;
+    max-height: 950px;
     overflow: hidden;
 }
 
