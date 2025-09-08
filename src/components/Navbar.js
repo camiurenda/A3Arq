@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     useEffect(() => {
@@ -24,40 +25,40 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn"
             data-wow-delay="0.1s">
-            <a href="/" className="navbar-brand ms-4 ms-lg-0">
-                <img src="img/LOGO PNG BLANCO.png" alt="Logo" style={{ height: '40px' }} />
-            </a>
+            <Link to="/" className="navbar-brand ms-4 ms-lg-0">
+                <img src="img/LOGO PNG BLANCO.png" alt="A3 Arquitectas Logo" style={{ height: '40px' }} />
+            </Link>
             <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="/" className="nav-item nav-link active">Home</a>
+                    <Link to="/" className="nav-item nav-link active">Home</Link>
                     <div className="nav-item dropdown">
                         <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Proyectos</a>
                         <div className="dropdown-menu border-0 m-0">
-                            <a href="/project.html#project1" className="dropdown-item">Casa GC</a>
-                            <a href="/project.html#project2" className="dropdown-item">Casa PB</a>
-                            <a href="/project.html#project3" className="dropdown-item">Casa Bio</a>
-                            <a href="/project.html#project4" className="dropdown-item">Edificio de oficinas</a>
-                            <a href="/project.html#project5" className="dropdown-item">Proyecto Las Dalias</a>
-                            <a href="/project.html#project6" className="dropdown-item">Casa FG</a>
+                            <Link to="/project#project1" className="dropdown-item">Casa GC</Link>
+                            <Link to="/project#project2" className="dropdown-item">Casa PB</Link>
+                            <Link to="/project#project3" className="dropdown-item">Casa Bio</Link>
+                            <Link to="/project#project4" className="dropdown-item">Edificio de oficinas</Link>
+                            <Link to="/project#project5" className="dropdown-item">Proyecto Las Dalias</Link>
+                            <Link to="/project#project6" className="dropdown-item">Casa FG</Link>
                         </div>
                     </div>
                     <div className="nav-item dropdown">
                         <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Módulos Habitables</a>
                         <div className="dropdown-menu border-0 m-0">
-                            <a href="/modules.html#module1" className="dropdown-item">Vivienda 1 Dormitorio</a>
-                            <a href="/modules.html#module2" className="dropdown-item">Vivienda 2 Dormitorios</a>
-                            <a href="/modules.html#module3" className="dropdown-item">Oficina</a>
-                            <a href="/modules.html#module4" className="dropdown-item">Local</a>
-                            <a href="/modules.html#module5" className="dropdown-item">Quincho</a>
-                            <a href="/modules.html#module6" className="dropdown-item">Depósito</a>
+                            <Link to="/modules#module1" className="dropdown-item">Vivienda 1 Dormitorio</Link>
+                            <Link to="/modules#module2" className="dropdown-item">Vivienda 2 Dormitorios</Link>
+                            <Link to="/modules#module3" className="dropdown-item">Oficina</Link>
+                            <Link to="/modules#module4" className="dropdown-item">Local</Link>
+                            <Link to="/modules#module5" className="dropdown-item">Quincho</Link>
+                            <Link to="/modules#module6" className="dropdown-item">Depósito</Link>
                         </div>
                     </div>
-                    <a href="/service.html" className="nav-item nav-link">Servicios</a>
-                    <a href="/about.html" className="nav-item nav-link">Sobre nosotras</a>
-                    <a href="/contact.html" className="nav-item nav-link contact-btn">CONTACTO</a>
+                    <Link to="/service" className="nav-item nav-link">Servicios</Link>
+                    <Link to="/about" className="nav-item nav-link">Sobre nosotras</Link>
+                    <Link to="/contact" className="nav-item nav-link contact-btn">CONTACTO</Link>
                 </div>
             </div>
         </nav>

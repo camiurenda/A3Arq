@@ -31,6 +31,15 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/feature" element={<Feature />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/modules" element={<Modules />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/testimonial" element={<Testimonial />} />
+          <Route path="/contact" element={<Contact />} />
+          {/* Redirect old .html URLs for SEO */}
           <Route path="/about.html" element={<About />} />
           <Route path="/service.html" element={<Service />} />
           <Route path="/feature.html" element={<Feature />} />
@@ -39,7 +48,6 @@ function App() {
           <Route path="/team.html" element={<Team />} />
           <Route path="/testimonial.html" element={<Testimonial />} />
           <Route path="/contact.html" element={<Contact />} />
-          {/* Add other routes as needed */}
         </Routes>
         <Footer />
         <BackToTop />
