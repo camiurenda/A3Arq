@@ -17,12 +17,12 @@ const About = () => {
                                         <img 
                                             className="rounded-circle" 
                                             src="img/jesi.jpg" 
-                                            alt="Jesica Cóseres" 
+                                            alt="Jésica Cóseres" 
                                             className="rounded-circle team-photo" 
                                             style={{ objectFit: 'cover' }}
                                         />
                                     </div>
-                                    <h3 className="mb-1 fw-bold">Jesica Cóseres</h3>
+                                    <h3 className="mb-1 fw-bold">Jésica Cóseres</h3>
                                     <p className="text-muted mb-0">Arquitecta</p>
                                 </div>
                             </div>
