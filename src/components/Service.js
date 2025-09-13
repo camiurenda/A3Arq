@@ -6,7 +6,7 @@ const Service = () => {
             <div className="container">
                 <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '600px' }}>
                     <h4 className="section-title">Nuestros Servicios</h4>
-                    <h1 className="display-5 mb-4">Nos Enfocamos en Arquitectura Moderna y Diseño de Interiores</h1>
+                    <h1 className="display-5 mb-4">Nos Enfocamos en Arquitectura Moderna y Diseño Sustentable</h1>
                 </div>
                 <div className="row g-4">
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -47,7 +47,7 @@ const Service = () => {
                             <img className="bg-img" src="img/3diseñodeinteriores.jpg" alt="" />
                             <div className="service-text p-5">
                                 <img className="mb-4" src="img/icons/icon-8.png" alt="Icon" />
-                                <h3 className="mb-3">Diseño de Interiores</h3>
+                                <h3 className="mb-3">Diseño Sustentable</h3>
                                 <p className="mb-4">Transformamos tus espacios interiores con estilo y funcionalidad.</p>
                                
                             </div>
