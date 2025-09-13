@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+/* Responsive team photos */
+.team-photo {
+  width: 350px;
+  height: 350px;
+}
+
+@media (max-width: 768px) {
+  .team-photo {
+    width: 180px;
+    height: 180px;
+  }
+}

@@ -6,23 +6,69 @@ const About = () => {
         <div className="container-xxl py-5">
             <div className="container">
                 <div className="row g-5">
-                    <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div className="about-img">
-        
-                        <img className="img-fluid about-a3-img" src="img/a3.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div className="col-12 wow fadeIn" data-wow-delay="0.1s">
                         <h4 className="section-title">Sobre Nosotras</h4>
                         <h1 className="display-5 mb-4">A3 Arquitectas</h1>
-                        <p>Somos Lucía, Jésica y Daiana, un equipo de tres profesionales formadas en la Universidad Nacional de Córdoba, unidas por la pasión de crear espacios que mejoren la vida de quienes los habitan.
-                            
-                           Trabajamos de manera colaborativa en todas las etapas: desde el primer encuentro con el cliente hasta el seguimiento de obra, asegurando un acompañamiento cercano, técnico y humano.
+                        
+                        <div className="row g-4 mb-5">
+                            <div className="col-md-4 text-center">
+                                <div className="d-flex flex-column align-items-center">
+                                    <div className="mb-3">
+                                        <img 
+                                            className="rounded-circle" 
+                                            src="img/jesi.jpg" 
+                                            alt="Jesica Cóseres" 
+                                            className="rounded-circle team-photo" 
+                                            style={{ objectFit: 'cover' }}
+                                        />
+                                    </div>
+                                    <h6 className="mb-1">Jesica Cóseres</h6>
+                                    <p className="text-muted mb-0">Arquitecta</p>
+                                </div>
+                            </div>
+                            <div className="col-md-4 text-center">
+                                <div className="d-flex flex-column align-items-center">
+                                    <div className="mb-3">
+                                        <img 
+                                            className="rounded-circle" 
+                                            src="img/dai.jpg" 
+                                            alt="Daiana Bilbao" 
+                                            className="rounded-circle team-photo" 
+                                            style={{ objectFit: 'cover' }}
+                                        />
+                                    </div>
+                                    <h6 className="mb-1">Daiana Bilbao</h6>
+                                    <p className="text-muted mb-0">Arquitecta</p>
+                                </div>
+                            </div>
+                            <div className="col-md-4 text-center">
+                                <div className="d-flex flex-column align-items-center">
+                                    <div className="mb-3">
+                                        <img 
+                                            className="rounded-circle" 
+                                            src="img/luli.jpg" 
+                                            alt="Lucía Martínez Ávila" 
+                                            className="rounded-circle team-photo" 
+                                            style={{ objectFit: 'cover' }}
+                                        />
+                                    </div>
+                                    <h6 className="mb-1">Lucía Martínez Ávila</h6>
+                                    <p className="text-muted mb-0">Arquitecta</p>
+                                </div>
+                            </div>
+                        </div>
 
-                           Creemos en una arquitectura funcional, sensible y realista, que combina creatividad con planificación, y diseño con atención al detalle. Nuestro enfoque está puesto en la sustentabilidad y el uso responsable de los recursos, incorporando estrategias de diseño pasivo que optimizan el confort y reducen el impacto ambiental.</p>
+                        <div className="mb-5">
+                            <p className="lead mb-4">Somos <strong>Jésica, Daiana, y Lucía</strong>, un equipo de tres profesionales formadas en la <span className="text-primary">Universidad Nacional de Córdoba</span>, unidas por la pasión de crear espacios que mejoren la vida de quienes los habitan.</p>
+                            
+                            <h5 className="text-primary mb-3">Nuestro Proceso</h5>
+                            <p className="mb-4">Trabajamos de manera <strong>colaborativa</strong> en todas las etapas: desde el <em>primer encuentro con el cliente</em> hasta el <em>seguimiento de obra</em>, asegurando un acompañamiento <strong>cercano, técnico y humano</strong>.</p>
+                            
+                            <h5 className="text-primary mb-3">Nuestra Filosofía</h5>
+                            <p className="mb-0">Creemos en una arquitectura <strong>funcional, sensible y realista</strong>, que combina <span className="text-primary">creatividad</span> con <span className="text-primary">planificación</span>, y diseño con atención al detalle. Nuestro enfoque está puesto en la <strong>sustentabilidad</strong> y el uso responsable de los recursos, incorporando estrategias de <em>diseño pasivo</em> que optimizan el confort y reducen el impacto ambiental.</p>
+                        </div>
                         
-                        
-                        <div className="row g-4 mb-4">
+                        <div className="row g-4">
                             <div className="col-md-4 text-center">
                                 <div className="d-flex flex-column align-items-center">
                                     <div className="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-3"
