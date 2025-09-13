@@ -22,7 +22,7 @@ const About = () => {
                                             style={{ objectFit: 'cover' }}
                                         />
                                     </div>
-                                    <h6 className="mb-1">Jesica Cóseres</h6>
+                                    <h3 className="mb-1 fw-bold">Jesica Cóseres</h3>
                                     <p className="text-muted mb-0">Arquitecta</p>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ const About = () => {
                                             style={{ objectFit: 'cover' }}
                                         />
                                     </div>
-                                    <h6 className="mb-1">Daiana Bilbao</h6>
+                                    <h3 className="mb-1 fw-bold">Daiana Bilbao</h3>
                                     <p className="text-muted mb-0">Arquitecta</p>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ const About = () => {
                                             style={{ objectFit: 'cover' }}
                                         />
                                     </div>
-                                    <h6 className="mb-1">Lucía Martínez Ávila</h6>
+                                    <h3 className="mb-1 fw-bold">Lucía Martínez Ávila</h3>
                                     <p className="text-muted mb-0">Arquitecta</p>
                                 </div>
                             </div>
