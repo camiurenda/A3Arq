@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
+    const location = useLocation();
+
     useEffect(() => {
         const handleScroll = () => {
             const navbar = document.querySelector('.sticky-top');
@@ -21,6 +23,18 @@ const Navbar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
+    // Cerrar navbar en mobile cuando cambie la ruta
+    useEffect(() => {
+        const navbarCollapse = document.getElementById('navbarCollapse');
+        if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+            // Usar Bootstrap's collapse para cerrar el navbar
+            const bsCollapse = new window.bootstrap.Collapse(navbarCollapse, {
+                toggle: false
+            });
+            bsCollapse.hide();
+        }
+    }, [location]);
 
     return (
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn"
