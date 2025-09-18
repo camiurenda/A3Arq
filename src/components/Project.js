@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const projectsData = [
     {
@@ -82,8 +83,10 @@ const projectsData = [
 ];
 
 const Project = () => {
+    const location = useLocation();
+
     useEffect(() => {
-        const handleHashChange = () => {
+        const handleProjectSelection = () => {
             const hash = window.location.hash;
             if (hash) {
                 const projectNumber = hash.replace('#project', '');
@@ -108,13 +111,16 @@ const Project = () => {
             }
         };
 
-        window.addEventListener('hashchange', handleHashChange);
-        handleHashChange();
+        // Ejecutar cuando cambie la location (incluye cambios de hash)
+        handleProjectSelection();
+
+        // También escuchar cambios de hash para casos edge
+        window.addEventListener('hashchange', handleProjectSelection);
 
         return () => {
-            window.removeEventListener('hashchange', handleHashChange);
+            window.removeEventListener('hashchange', handleProjectSelection);
         };
-    }, []);
+    }, [location]); // Dependencia en location para que se ejecute en cada cambio
 
     return (
         <div className="container-xxl project py-5">

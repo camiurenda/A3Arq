@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const modulesData = [
     {
@@ -116,9 +117,10 @@ const modulesData = [
 
 const Modules = () => {
     const [showFullText, setShowFullText] = useState(false);
+    const location = useLocation();
 
     useEffect(() => {
-        const handleHashChange = () => {
+        const handleModuleSelection = () => {
             const hash = window.location.hash;
             if (hash) {
                 const moduleNumber = hash.replace('#module', '');
@@ -143,13 +145,16 @@ const Modules = () => {
             }
         };
 
-        window.addEventListener('hashchange', handleHashChange);
-        handleHashChange();
+        // Ejecutar cuando cambie la location (incluye cambios de hash)
+        handleModuleSelection();
+
+        // También escuchar cambios de hash para casos edge
+        window.addEventListener('hashchange', handleModuleSelection);
 
         return () => {
-            window.removeEventListener('hashchange', handleHashChange);
+            window.removeEventListener('hashchange', handleModuleSelection);
         };
-    }, []);
+    }, [location]); // Dependencia en location para que se ejecute en cada cambio
 
     return (
         <div className="container-xxl project py-5">
