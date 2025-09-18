@@ -47,7 +47,7 @@ const Service = () => {
                             <img className="bg-img" src="img/3diseñodeinteriores.jpg" alt="" />
                             <div className="service-text p-5">
                                 <img className="mb-4" src="img/icons/icon-8.png" alt="Icon" />
-                                <h3 className="mb-3">Diseño Sustentable</h3>
+                                <h3 className="mb-3">Diseño de Interior</h3>
                                 <p className="mb-4">Transformamos tus espacios interiores con estilo y funcionalidad.</p>
                                
                             </div>
