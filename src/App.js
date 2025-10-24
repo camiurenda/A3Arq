@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import 'wowjs/css/libs/animate.css';
 import WOW from 'wowjs';
 import './App.css';
@@ -51,6 +52,7 @@ function App() {
         </Routes>
         <Footer />
         <BackToTop />
+        <Analytics />
       </div>
     </Router>
   );
