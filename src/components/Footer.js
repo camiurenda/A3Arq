@@ -44,12 +44,12 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; 2025 <a href="/">Techlabs</a>, Todos los derechos reservados.
+                        &copy; 2025 <a href="https://wa.me/5493534268133?text=¡Hola!%20Vi%20tu%20sitio%20web%20y%20te%20quería%20consultar" target="_blank" rel="noopener noreferrer">Camila Urenda</a>, Todos los derechos reservados.
                         </div>
                         <div className="col-md-6 text-center text-md-end">
-                            Diseñado por <a href="https://htmlcodex.com">HTML Codex</a>
+                            <span style={{ opacity: 0.3 }}>Diseñado por <a href="https://htmlcodex.com" style={{ opacity: 0.3 }}>HTML Codex</a>
                             <br /> Distribuido por: <a className="border-bottom" href="https://themewagon.com"
-                                target="_blank" rel="noopener noreferrer">ThemeWagon</a>
+                                target="_blank" rel="noopener noreferrer" style={{ opacity: 0.3 }}>ThemeWagon</a></span>
                         </div>
                     </div>
                 </div>
