@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Analytics } from '@vercel/analytics/react';
 import 'wowjs/css/libs/animate.css';
 import WOW from 'wowjs';
@@ -15,9 +15,47 @@ import Modules from './components/Modules';
 import Team from './components/Team';
 import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
+import QuinchoLanding from './components/QuinchoLanding';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
 import WhatsAppButton from './components/WhatsAppButton';
+
+function AppContent() {
+  const location = useLocation();
+  const isLandingPage = location.pathname === '/modulo-quincho';
+
+  return (
+    <div>
+      <Spinner />
+      {!isLandingPage && <Navbar />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/feature" element={<Feature />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/modules" element={<Modules />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/testimonial" element={<Testimonial />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/modulo-quincho" element={<QuinchoLanding />} />
+        {/* Redirect old .html URLs for SEO */}
+        <Route path="/about.html" element={<About />} />
+        <Route path="/service.html" element={<Service />} />
+        <Route path="/feature.html" element={<Feature />} />
+        <Route path="/project.html" element={<Project />} />
+        <Route path="/modules.html" element={<Modules />} />
+        <Route path="/team.html" element={<Team />} />
+        <Route path="/testimonial.html" element={<Testimonial />} />
+        <Route path="/contact.html" element={<Contact />} />
+      </Routes>
+      {!isLandingPage && <Footer />}
+      {!isLandingPage && <BackToTop />}
+      <WhatsAppButton />
+      <Analytics />
+    </div>
+  );
+}
 
 function App() {
   useEffect(() => {
@@ -28,34 +66,7 @@ function App() {
 
   return (
     <Router>
-      <div>
-        <Spinner />
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Service />} />
-          <Route path="/feature" element={<Feature />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/modules" element={<Modules />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/testimonial" element={<Testimonial />} />
-          <Route path="/contact" element={<Contact />} />
-          {/* Redirect old .html URLs for SEO */}
-          <Route path="/about.html" element={<About />} />
-          <Route path="/service.html" element={<Service />} />
-          <Route path="/feature.html" element={<Feature />} />
-          <Route path="/project.html" element={<Project />} />
-          <Route path="/modules.html" element={<Modules />} />
-          <Route path="/team.html" element={<Team />} />
-          <Route path="/testimonial.html" element={<Testimonial />} />
-          <Route path="/contact.html" element={<Contact />} />
-        </Routes>
-        <Footer />
-        <BackToTop />
-        <WhatsAppButton />
-        <Analytics />
-      </div>
+      <AppContent />
     </Router>
   );
 }
