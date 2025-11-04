@@ -163,22 +163,22 @@ const QuinchoLanding = () => {
                             {/* Imagen de Quincho */}
                             <div className="mb-3 wow fadeInUp" data-wow-delay="0.4s">
                                 <div style={{
-                                    backgroundColor: '#3d3d3d',
                                     borderRadius: '15px',
-                                    padding: '15px',
-                                    height: '220px',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    border: '2px solid #B78D65',
+                                    overflow: 'hidden',
+                                    border: '3px solid #B78D65',
                                     maxWidth: '500px',
-                                    margin: '0 auto'
+                                    margin: '0 auto',
+                                    boxShadow: '0 8px 25px rgba(183, 141, 101, 0.3)'
                                 }}>
-                                    <div className="text-center">
-                                        <i className="fa fa-image" style={{ fontSize: '3rem', color: '#B78D65' }}></i>
-                                        <p className="text-white mt-3 mb-0" style={{ fontSize: '1rem' }}>Render de Quincho</p>
-                                        <small className="text-white-50">Reemplazá con tu imagen</small>
-                                    </div>
+                                    <img
+                                        src="/img/quincho.png"
+                                        alt="Quincho modular A3 Arquitectura"
+                                        style={{
+                                            width: '100%',
+                                            height: 'auto',
+                                            display: 'block'
+                                        }}
+                                    />
                                 </div>
                             </div>
 
