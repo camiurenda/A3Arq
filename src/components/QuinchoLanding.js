@@ -85,8 +85,8 @@ const QuinchoLanding = () => {
                                     maxWidth: '95%',
                                     textAlign: 'center'
                                 }}>
-                                    <i className="fa fa-clock me-1"></i>
-                                    CUPOS LIMITADOS
+                                    <i className="fa fa-gift me-1"></i>
+                                    ASESORAMIENTO 100% SIN CARGO - CUPOS LIMITADOS
                                 </span>
                             </div>
 
@@ -232,10 +232,17 @@ const QuinchoLanding = () => {
                                     color: '#252525',
                                     fontFamily: "'Teko', sans-serif"
                                 }}>
-                                    Completá el Formulario
+                                    Completá el formulario
                                 </h2>
                                 <p className="lead text-muted">
-                                    Contanos sobre tu proyecto y empecemos a diseñar juntos
+                                    Contanos sobre tu proyecto y te armamos un presupuesto sin cargo
+                                    <br/>
+                                    <span style={{
+                                        color: '#B78D65',
+                                        fontWeight: '600'
+                                    }}>
+                                        Consultá gratis!
+                                    </span>
                                 </p>
                             </div>
 
